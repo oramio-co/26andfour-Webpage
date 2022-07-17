@@ -104,3 +104,20 @@ figcaption {
 .testimonial-1 {
     margin-bottom: 3em;
 }
+
+.start-trial {
+    padding-top: 5%;
+    margin-bottom: 1em;
+}
+
+.cta {
+    display: flex;
+    background: #00cc80;
+    color: white;
+    justify-content: center;
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: .5em;
+    position: relative;
+    z-index: 1;
+}
