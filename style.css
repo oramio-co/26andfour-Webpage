@@ -26,3 +26,21 @@ p, blockquote {
     text-align: center;
     padding: .8em 1.2em;
 }
+
+.logo {
+    width: 130px;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 25px;
+}
