@@ -121,3 +121,27 @@ figcaption {
     position: relative;
     z-index: 1;
 }
+
+.closing {
+    background: #3d444a;
+    padding: 1em 0;
+    border-top-right-radius: 40px;
+}
+
+.address {
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.closing-link {
+    margin: .5em;
+}
+
+.closing-link-text {
+    color: #9d9d9d;
+    font-size: .8em;
+}
