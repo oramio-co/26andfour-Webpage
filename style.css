@@ -87,13 +87,33 @@ p, blockquote {
     margin: 2em auto 2em 25%;
 }
 
+@media only screen and (min-width: 500px) {
+    .server {
+        width: 50%;
+    }
+}
+
 .splash {
     position: relative;
     z-index: 2;
 }
 
+@media only screen and (min-width: 500px) {
+    h1 {
+        font-size: 2.5em;
+        margin: 0;
+    }
+}
+
 .subhead {
     font-size: 1.1em;
+}
+
+@media only screen and (min-width: 500px) {
+    .subhead {
+        font-size: 1.5em;
+        padding-bottom: 1em;
+    }
 }
 
 .top-content {
