@@ -58,3 +58,29 @@ p, blockquote {
 .subhead {
     font-size: 1.1em;
 }
+
+.top-content {
+    background: #00c2ff;
+    color: white;
+    padding: 3em 0 .8em;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+[class^="item"] {
+    margin-bottom: 3em;
+}
+
+[class^="statement"] {
+    padding: 0 .5em;
+}
+
+[class$="icon"] {
+    width: 15%;
+}
+
+.phone-icon {
+    width: 10%;
+}
