@@ -84,3 +84,23 @@ p, blockquote {
 .phone-icon {
     width: 10%;
 }
+
+.testimonial-content {
+    background: #f5f5f5;
+    padding: 5em 0 2em;
+    margin-top: -10%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-weight: bold;
+    color: #00c2ff;
+}
+
+.testimonial-1 {
+    margin-bottom: 3em;
+}
