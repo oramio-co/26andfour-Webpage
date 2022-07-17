@@ -35,6 +35,43 @@ p, blockquote {
     display: none;
 }
 
+.nav {
+    position: fixed;
+    width: 50%;
+    height: 80%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36,41,44);
+    z-index: 3;
+}
+
+.nav li {
+    border: solid 1px white;
+}
+
+.exit-btn {
+    padding: 1em;
+    text-align: right;
+}
+
+.exit-btn img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.menu-item {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    background: rgb(52, 59, 63);
+}
+
+.menu-item:hover {
+    background: rgb(93, 102, 107);
+}
+
 .heading {
     display: flex;
     align-items: center;
