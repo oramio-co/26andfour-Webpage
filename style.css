@@ -182,8 +182,16 @@ p, blockquote {
 
 .testimonial-content {
     background: #f5f5f5;
-    padding: 5em 0 2em;
+    padding: 4.5em 0 2em;
     margin-top: -10%;
+}
+
+@media only screen and (min-width: 500px) {
+    .testimonial-content {
+        display: flex;
+        margin-top: -5%;
+        padding: 2em 0 0;
+    }
 }
 
 figure {
@@ -191,13 +199,19 @@ figure {
     padding: 0;
 }
 
-figcaption {
-    font-weight: bold;
-    color: #00c2ff;
+@media only screen and (min-width: 500px) {
+    figure {
+        margin-top: 5%;
+    }
 }
 
 .testimonial-1 {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+}
+
+figcaption {
+    font-weight: bold;
+    color: #00c2ff;
 }
 
 .start-trial {
