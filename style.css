@@ -27,6 +27,13 @@ p, blockquote {
     padding: .8em 1.2em;
 }
 
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
 .logo {
     width: 130px;
 }
@@ -46,8 +53,19 @@ p, blockquote {
     z-index: 3;
 }
 
-.nav li {
-    border: solid 1px white;
+@media only screen and (min-width: 1024px) {
+    .hide-desktop {
+        display: none;
+    }
+
+    .show-desktop {
+        display: flex;
+    }
+
+    .nav {
+        position: inherit;
+        background: none;
+    }
 }
 
 .exit-btn {
@@ -68,8 +86,22 @@ p, blockquote {
     background: rgb(52, 59, 63);
 }
 
+@media only screen and (min-width: 1024px) {
+    .menu-item {
+        background: inherit;
+        color: black;
+        text-align: right;
+    }
+}
+
 .menu-item:hover {
     background: rgb(93, 102, 107);
+}
+
+@media only screen and (min-width: 1024px) {
+    .menu-item:hover {
+        background: rgb(226, 226, 226);
+    }
 }
 
 .heading {
@@ -116,6 +148,32 @@ p, blockquote {
     }
 }
 
+@media only screen and (min-width: 1024px) {
+    .scroll {
+        margin: 0 auto 2.5em;
+        -webkit-animation: move 1.5s infinite alternate;
+                animation: move 1.5s infinite alternate;
+    }
+
+    @-webkit-keyframes move {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(20px);
+        }
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(20px);
+        }
+    }
+}
+
 .top-content {
     background: #00c2ff;
     color: white;
@@ -150,6 +208,12 @@ p, blockquote {
         display: grid;
         justify-items: center;
         grid-template-rows: 50% 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    [class^="item"] {
+        margin: 2em 0 3em;
     }
 }
 
@@ -209,6 +273,13 @@ figure {
     margin-bottom: 2em;
 }
 
+@media only screen and (min-width: 1024px) {
+    [class^="testimonial"] {
+        padding-top: 2em;
+        padding-bottom: .5em;
+    }
+}
+
 figcaption {
     font-weight: bold;
     color: #00c2ff;
@@ -223,6 +294,12 @@ figcaption {
     .start-trial {
         padding-top: 0;
         margin: 2em auto 2em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .start-trial {
+        margin: 3em auto 3em;
     }
 }
 
@@ -244,6 +321,14 @@ figcaption {
         margin-left: 1em;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .cta {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
 .closing {
     background: #3d444a;
     padding: 1em 0;
@@ -264,6 +349,15 @@ figcaption {
 }
 
 .closing-link-text {
+    display: inline-block;
+    position: relative;
     color: #9d9d9d;
     font-size: .8em;
+    z-index: 1;
+    padding: 1em;
+    margin: -1em;
+}
+
+.closing-link-text:hover {
+    background: rgba(139, 139, 139, 0.4);
 }
