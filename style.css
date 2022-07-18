@@ -87,7 +87,7 @@ p, blockquote {
     margin: 2em auto 2em 25%;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     .server {
         width: 50%;
     }
@@ -98,7 +98,7 @@ p, blockquote {
     z-index: 2;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     h1 {
         font-size: 2.5em;
         margin: 0;
@@ -109,7 +109,7 @@ p, blockquote {
     font-size: 1.1em;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     .subhead {
         font-size: 1.5em;
         padding-bottom: 1em;
@@ -126,13 +126,13 @@ p, blockquote {
     z-index: 1;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     .top-content {
         padding-top: 1.5em;
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     .top-content ul{
         display: flex;
     }
@@ -145,7 +145,7 @@ p, blockquote {
     align-items: center;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     [class^="item"] {
         display: grid;
         justify-items: center;
@@ -157,7 +157,7 @@ p, blockquote {
     width: 15%;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     [class$="icon"] {
         width: 20%;
     }
@@ -167,13 +167,13 @@ p, blockquote {
     width: 10%;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     .phone-icon {
         width: 13%;
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     [class^="statement"] {
         height: 50%;
         padding: 0 1em;
@@ -186,7 +186,7 @@ p, blockquote {
     margin-top: -10%;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     .testimonial-content {
         display: flex;
         margin-top: -5%;
@@ -199,7 +199,7 @@ figure {
     padding: 0;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     figure {
         margin-top: 5%;
     }
@@ -219,7 +219,7 @@ figcaption {
     margin-bottom: 1em;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     .start-trial {
         padding-top: 0;
         margin: 2em auto 2em;
@@ -238,7 +238,7 @@ figcaption {
     z-index: 1;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 512px) {
     .cta {
         margin-right: 1em;
         margin-left: 1em;
