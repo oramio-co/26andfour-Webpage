@@ -219,6 +219,13 @@ figcaption {
     margin-bottom: 1em;
 }
 
+@media only screen and (min-width: 500px) {
+    .start-trial {
+        padding-top: 0;
+        margin: 2em auto 2em;
+    }
+}
+
 .cta {
     display: flex;
     background: #00cc80;
@@ -231,6 +238,12 @@ figcaption {
     z-index: 1;
 }
 
+@media only screen and (min-width: 500px) {
+    .cta {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+}
 .closing {
     background: #3d444a;
     padding: 1em 0;
